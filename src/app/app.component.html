@@ -54,10 +54,11 @@
       <div class="example-element-detail"
            [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
         <div class="example-element-diagram">
-          <div class="example-element-position"> {{element.position}} </div>
-          <div class="example-element-symbol"> {{element.symbol}} </div>
-          <div class="example-element-name"> {{element.name}} </div>
-          <div class="example-element-weight"> {{element.weight}} </div>
+          <div class="example-element-name"> {{element.nombre}} </div>
+          <div class="example-element-cargo"> {{element.cargo}} </div>
+          <div class="example-element-local"> {{element.local}} </div>
+          <div class="example-element-correo"> {{element.correo}} </div>
+          <div class="example-element-telefono"> {{element.telefono}} </div>
         </div>
         <div class="example-element-description">
           {{element.description}}
